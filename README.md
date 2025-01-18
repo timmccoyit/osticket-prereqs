@@ -33,11 +33,12 @@ Then, we take our folder with all the dependencies in osTicket inside and start 
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- PHP Manager for IIS: Makes sure IIS can run PHP, which osTicket depends on.
+- URL Rewrite Module for IIS: Ensures that osTicket's URLs are clean and easy to use.
+- C:\PHP Folder: A folder where PHP will be stored and used by your server.
+- PHP 7.3.8: The programming language required to run osTicket.
+- VC Redist: The necessary Visual C++ libraries to ensure PHP works properly on Windows.
+- MySQL: The database system used to store all of osTicket’s data, such as tickets and settings.
 
 <h2>Installation Steps</h2>
 
