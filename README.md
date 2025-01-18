@@ -6,12 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-First, we created our windows 10 virtual machine in microsoft azure then we remote desktop into and install Internet Information Services(IIS) with CGI. After this, we create a folder named PHP in our C directory to put the PHP files into for osTicket.
-Then, we take our folder with all the dependencies in osTicket inside and start installing these dependencies one by one. After I install the last thing which is MySQL, then we open IIS as an Admin and register PHP from within IIS (PHP Manager --> direct to php-cgi.exe file. Now we're installing osTicket itself and reloading IIS once more so we can go to site or landing page for osTicket. On this page, it states that some extensions are still not enabled so I go to the PHP manager and manually enable them then refresh osticket. I then rename the config file for osticket then assign permissions to ost-config.php to give everyone permissions. Next, i install HeidiSQL to create the database for our ticketing system then continue setting up osticket in the browser.
-
- 
-
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -37,7 +31,7 @@ Then, we take our folder with all the dependencies in osTicket inside and start 
 ![image](https://github.com/user-attachments/assets/0d604329-6688-4b72-a04b-47778f8847f5)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, we created our windows 10 virtual machine in microsoft azure then we remote desktop into and install Internet Information Services(IIS) with CGI. After this, we create a folder named PHP in our C directory to put the PHP files into for osTicket.
 </p>
 <br />
 
@@ -45,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![image](https://github.com/user-attachments/assets/e048e821-1cdc-42bb-bc2c-3a241b7f38a0)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Then, we take our folder with all the dependencies in osTicket inside and start installing these dependencies one by one. After I install the last thing which is MySQL, then we open IIS as an Admin and register PHP from within IIS (PHP Manager --> direct to php-cgi.exe file.
 </p>
 <br />
 
@@ -53,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![image](https://github.com/user-attachments/assets/447a59db-bacb-45fd-8487-ed9cda91b3e6)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we're installing osTicket itself and reloading IIS once more so we can go to site or landing page for osTicket. On this page, it states that some extensions are still not enabled so I go to the PHP manager and manually enable them then refresh osticket.
 </p>
 <br />
 
@@ -61,6 +55,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![image](https://github.com/user-attachments/assets/86c7c473-4b0c-4aab-afb3-c69caf0ed18c)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I then rename the config file for osticket then assign permissions to ost-config.php to give everyone permissions. Next, i install HeidiSQL to create the database for our ticketing system then continue setting up osticket in the browser.
 </p>
 <br />
